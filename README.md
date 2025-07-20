@@ -7,4 +7,5 @@ Completed while reading [PMPP 4e (Hwu, Kirk, Hajj)](https://annas-archive.li/md5
 CUDA 12.8
 
 ## Days
-[[001_hello_world.cu]](days/001_hello_world.cu) - Very basic hello world. Starting slow, just trying to get familiar with the environment and toolchain.
+[[001_hello_world.cu]](days/001_hello_world.cu) \
+[[002_vector_add.cu]](days/002_vector_add.cu) 
