@@ -29,6 +29,9 @@ int main() {
     b = (int *)malloc(size);
     c = (int *)malloc(size);
 
+    random_int(a, N);
+    random_int(b, N);
+
     cudaMemcpy(d_a, a, size, cudaMemcpyHostToDevice);
     cudaMemcpy(d_b, b, size, cudaMemcpyHostToDevice);
 
